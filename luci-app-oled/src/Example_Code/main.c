@@ -67,7 +67,7 @@ Options:\n\
 \n\
   --config=file or -c file          Specify configuration file.\n\
 \n\
-  --i2cDevPath=path or -d path      Specify the i2c device, default is /dev/i2c-0.\n\
+  --i2cDevPath=path or -d path      Specify the i2c device, default is /dev/i2c-2.\n\
   --from=minutes or -f minites      Specify the time(in minutes of day) to start displaying, default is 0.\n\
   --to=minutes or -t minites        Specify the time(in minutes of day) to stop displaying, default is 1440.\n\
   --neetInit or -N                  Turn on init, default is on.\n\
