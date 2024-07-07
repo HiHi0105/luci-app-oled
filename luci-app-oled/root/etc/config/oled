@@ -26,4 +26,4 @@ config oled
 	option scroll '0'
 	option text 'OPENWRT'
 	option netsource 'eth0'
-	option path '/dev/i2c-0'
+	option path '/dev/i2c-2'
