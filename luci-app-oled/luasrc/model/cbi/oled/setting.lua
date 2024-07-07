@@ -15,7 +15,7 @@ s:tab("screensaver", translate("screensaver"))
 o = s:taboption("info", Flag, "enable", translate("Enable"))
 o.default=0
 o = s:taboption("info", Value, "path", translate("I2C PATH"))
-o.default='/dev/i2c-0'
+o.default='/dev/i2c-2'
 o = s:taboption("info", Flag, "rotate", translate("180 degree rotation"))
 o.default=0
 o = s:taboption("info", Flag, "autoswitch", translate("Enable Auto switch"))
