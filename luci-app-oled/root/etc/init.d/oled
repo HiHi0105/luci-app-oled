@@ -26,7 +26,7 @@ start_service() {
 	procd_append_param command --needInit
 
 	local param
-	# default /dev/i2c-0
+	# default /dev/i2c-2
 	config_get param "$section" path
 	[ "$param" != "" ]  && procd_append_param command --i2cDevPath="$param"
 
